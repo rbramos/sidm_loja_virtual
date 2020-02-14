@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "52096120735",
+    "firebase_url": "https://sidm-loja-virtual.firebaseio.com",
+    "project_id": "sidm-loja-virtual",
+    "storage_bucket": "sidm-loja-virtual.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52096120735:android:e5664933c96c4dd12c6faa",
+        "android_client_info": {
+          "package_name": "io.github.rbramos.loja_virtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52096120735-ipfgf9q4oc9hg5qhlmpr82nkk1lfft2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK3HCPNrzOPG9Y8r2lAXj5Xg2NbLyzPw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52096120735-ipfgf9q4oc9hg5qhlmpr82nkk1lfft2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
