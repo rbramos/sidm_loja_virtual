@@ -61,11 +61,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   TextFormField(
                     controller: _passController,
                     decoration: InputDecoration(
-                        hintText: "Senha"
+                        hintText: "Password"
                     ),
                     obscureText: true,
                     validator: (text){
-                      if(text.isEmpty || text.length < 6) return "Senha inválida!";
+                      if(text.isEmpty || text.length < 6) return "Password inválida!";
                     },
                   ),
                   SizedBox(height: 16.0,),

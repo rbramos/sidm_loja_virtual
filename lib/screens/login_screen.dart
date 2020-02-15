@@ -64,11 +64,11 @@ class _LoginScreenState extends State<LoginScreen> {
                   TextFormField(
                     controller: _passController,
                     decoration: InputDecoration(
-                        hintText: "Senha"
+                        hintText: "Password"
                     ),
                     obscureText: true,
                     validator: (text){
-                      if(text.isEmpty || text.length < 6) return "Senha inválida!";
+                      if(text.isEmpty || text.length < 6) return "Password inválida!";
                     },
                   ),
                   Align(
@@ -85,7 +85,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         else {
                           model.recoverPass(_emailController.text);
                           _scaffoldKey.currentState.showSnackBar(
-                              SnackBar(content: Text("um link para redefinir a senha foi enviado ao e-mail registado."),
+                              SnackBar(content: Text("um link para redefinir a password foi enviado ao e-mail registado."),
                                 backgroundColor: Theme
                                     .of(context)
                                     .primaryColor,
@@ -94,7 +94,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           );
                         }
                       },
-                      child: Text("Esqueci minha senha",
+                      child: Text("Esqueci minha password",
                         textAlign: TextAlign.right,
                       ),
                       padding: EdgeInsets.zero,
